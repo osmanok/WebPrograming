@@ -6,11 +6,6 @@ body{
     margin: 0 auto;
 }
 
-h1,h2,h3,h4,h5,h6{
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
 #header{
     background-color: #18BC9C;
     text-align: center;
@@ -27,15 +22,27 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
 }
 
-#star-line{
+.bold-line{
     border: none;
     border-top: solid 5px;
-    max-width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bold-line1{
+    max-width: 550px;
+    color: #2C3E50;
+}
+
+.bold-line2{
+    max-width: 80%;
+    color: #2C3E50
 }
 
 #FSD{
     font-size: 2em;
     padding: 20px;
+    margin-top: -10px;
 }
 
 .container{
@@ -93,4 +100,40 @@ h1,h2,h3,h4,h5,h6{
 
 .clear{
     clear: both;
+}
+
+#content{
+    text-align: center;
+    color: #2C3E50;
+    margin-top: 70px;
+}
+
+.portfolio-item{
+    float: left;
+    width: 32%;
+    height: 100px;
+    background-color: aquamarine;
+    margin-right: 1%;
+}
+
+.portfolio-item img{
+    width: 100%;
+}
+
+.portfolio-item a{
+    display: block;
+    position: relative;
+}
+
+.caption{
+    background-color: #18bc9c;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.caption:hover{
+    opacity: 1;
 }
