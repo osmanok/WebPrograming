@@ -1,0 +1,6 @@
+izledigim yollar:
+    1-ana hatlar halinde 3e boldum ornek aldigim sayfayi
+header, main, footer olarak.
+    2-Her div icin idler atadim css de kolay degisiklik yapabilmek
+icin.
+    z-index: -1 --> resmi arakaya gommemizi sagliyor
